@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+}
+*{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #000000f2;
+}
+
+
+/* header */
+
+.strip-header-nav {
+    position: fixed;
+    top: 0;
+    left: 240px;
+    width: 60px;
+    height: 100vh;
+    z-index: 55555555;
+    background-color: #f8f6f6;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+.strip-toggel-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.strip-social-icon {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11;
+}
+.strip-social-icon >div {
+    padding-top: 10px;
+}
+.strip-toggel-menu i {
+    font-size: 25px;
+}
+.menu li {
+    padding-top: 500px;
+    opacity: 0;
+}
+.strip-logo img {
+    height: 48px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.head{
+    width: 250px;
+    z-index: 5555;
+    background-color: #000;
+    transition: all 0.6s ease;
+}
+.head a{
+    color: #f9f6f6;
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-social-item a {
+    color: #f9f6f6;
+    padding-left: 15px;
+    font-size: 14px;
+}
+i {
+    cursor: pointer;
+}
+.nav-social-item span {
+    color: #999;
+}
+.nav-social-item {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.nav-social-item a:hover {
+    color: #ff655c;
+    transition: all 0.3s;
+}
+.head ul li a:hover{
+    color: #ff655c;
+    transition: all 0.3s;
+}
+
+
+/* slider */
+input{
+    background: transparent !important;
+    border: none !important;
+    border-bottom:1px solid rgba(255,255,255,.7) !important;
+    color: #fff !important;
+    border-radius: 0% !important;
+    
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.alert {
+    display: none;
+}
+::placeholder{
+    text-align: center;
+}
+
+
+
+
+.movie:hover .layer {
+    top: 0;
+    transition: all 1s;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+}
